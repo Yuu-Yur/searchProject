@@ -14,8 +14,10 @@ import java.util.Set;
 @Getter
 public class SearchWord {
     @Id
-    private String ko_word;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long word_no;
 
+    private String ko_word;
     private String en_word;
     private String ru_word;
     private String ja_word;
