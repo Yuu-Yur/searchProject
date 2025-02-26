@@ -1,7 +1,6 @@
 package com.yuryuu.searchproject.repositoryTest;
 
 import com.yuryuu.searchproject.domain.User;
-import com.yuryuu.searchproject.repository.SearchedPostRepository;
 import com.yuryuu.searchproject.repository.UserRepository;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;

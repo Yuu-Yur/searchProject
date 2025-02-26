@@ -1,9 +1,7 @@
 package com.yuryuu.searchproject.repositoryTest;
 
 import com.yuryuu.searchproject.domain.SearchWord;
-import com.yuryuu.searchproject.domain.SearchedPost;
 import com.yuryuu.searchproject.repository.SearchWordRepository;
-import com.yuryuu.searchproject.repository.SearchedPostRepository;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
